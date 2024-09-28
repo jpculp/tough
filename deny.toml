@@ -92,6 +92,8 @@ skip = [
 skip-tree = [
     # reqwest is using several older dependencies
     { name = "reqwest", version = "=0.11" },
+    # aws-smithy-experimental is using several newer dependencies
+    { name = "aws-smithy-experimental", version = "=0.1" },
 ]
 
 [sources]
